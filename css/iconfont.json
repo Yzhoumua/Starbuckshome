@@ -1,0 +1,86 @@
+{
+  "id": "3634415",
+  "name": "星巴克",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "658025",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "577403",
+      "name": "向右2",
+      "font_class": "xiangyou2",
+      "unicode": "e776",
+      "unicode_decimal": 59254
+    },
+    {
+      "icon_id": "577407",
+      "name": "向左2",
+      "font_class": "xiangzuo2",
+      "unicode": "e77a",
+      "unicode_decimal": 59258
+    },
+    {
+      "icon_id": "653951",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1250137",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "1327035",
+      "name": "注册登录",
+      "font_class": "zhucedenglu",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    },
+    {
+      "icon_id": "5060087",
+      "name": "咖啡",
+      "font_class": "kafei",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "5340002",
+      "name": "服务门店",
+      "font_class": "fuwumendian_huaban",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "5979984",
+      "name": "汉堡菜单折叠",
+      "font_class": "hanbaocaidanzhedie",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "7791982",
+      "name": "更多",
+      "font_class": "ziyuanxhdpi",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "22870933",
+      "name": "饮品",
+      "font_class": "tubiao_yinpin",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    }
+  ]
+}

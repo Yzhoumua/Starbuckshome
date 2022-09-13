@@ -1,0 +1,233 @@
+
+a{
+    text-decoration: none!important;
+}
+li {
+    list-style: none;
+}
+.navTopcolor li a {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navHeight {
+    height: 62px;
+}
+
+.leftDeng {
+    height: calc(100vh - 62px);
+}
+
+.leftDeng .leftDengtext,
+.leftDeng .leftDengtext span {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.leftDeng .leftDengBtn a,.location .locationDeng a {
+    color: #00A862 !important;
+    font-size: 1rem;
+}
+
+.leftDeng .leftDengBtn a span,.location .locationDeng a span {
+    font-size: 1.3rem;
+    color: rgb(161, 161, 161);
+}
+
+.leftDeng .leftDengBtn .btn,.location .locationBtn{
+    border-radius: 20px !important;
+}
+.location{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transition: 0.1s;
+    transform: scale(1,2);
+    opacity: 0;
+    box-sizing: border-box;
+    z-index: -1;
+    width:auto;
+    overflow-y: auto;
+}
+.location.show{
+    opacity: 1;
+    transform: scale(1);
+    z-index: 9999;
+    display: block;
+    width: 100%;
+}
+
+.leftDeng .leftDengBtn .btn:hover,.location .locationBtn:hover{
+    color: white !important;
+}
+.location-nav{
+    padding-left:4rem;
+    padding-top: 8rem;
+}
+.location-nav ul a{
+    color: #000!important;
+    font-weight: bold;
+    font-size: 1.1rem;
+   
+}
+.location-nav ul li{
+    margin: 0.5rem 0;
+}
+.locationFooter{
+    bottom:2rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 10rem;
+   
+}
+.locationFooter a{
+    color:rgba(0, 0, 0, 0.38);
+    font-size: 0.8rem;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+a[href='#carousel'] span{
+    font-size: 2rem;
+}
+.bannerBrother{
+    background: #f7f7f7;
+}
+.bannerBrother div{
+    transition: 0.2s;
+}
+.bannerBrother div:hover,.startSelected .startSelectedcard:hover,.startCulture .startCulturebox a:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 1px 1px 1px rgb(0 0 0 / 12%);
+}
+.startClub{
+    color: rgba(0, 0, 0, 0.56);
+}
+.startClub h5{
+    color: #000;
+}
+.startClub p{
+    font-size: 0.9rem;
+}
+.startClub p a{
+    color: #C2A661;
+}
+.startClub p .btn{
+    color: #00A862;
+    border-radius: 20px;
+}
+.startClub p .btn:hover{
+    color: white;
+}
+.startSelected{
+    background: #f7f7f7;
+}
+.startSelected .startSelectedcard{
+    background-color: white;
+    margin-top:3rem;
+    transition: 0.2s;
+}
+.startSelected .startSelectedcard img{
+    margin-top: -20px;
+    border-radius: 5px;
+}
+.startSelected .startSelectedcard h5{
+    color:rgba(0, 0, 0, 0.87);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.startSelected .startSelectedcard p{
+    color: rgba(0, 0, 0, 0.56) !important;
+    font-size: 0.6rem;
+}
+.startSelected .startSelectedcard p a{
+    color: #C2A661;
+}
+
+.startCulture .startCulturebox a{
+    width: 288px;
+    height: 226px;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: .9rem;
+    transition: 0.2s;
+}
+.startCulture .startCulturebox{
+    width: 999999px;
+    transition: 0.3s;
+}
+.startCulture .startCulturebox a img{
+    height: 190px;
+}
+.startCulture .startCulturebox a::after{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    content: "咖啡知识";
+    color: white!important;
+    background: #C2A661;
+    padding: 3px 5px;
+    
+}
+.startCulturebox .icon-xiangzuo2,.startCulturebox .icon-xiangyou2{
+    bottom: 125px;
+    font-size: 2rem;
+    margin: auto 0;
+    color: rgba(255, 255, 255, 0.726);
+    transition: 0.2s;
+}
+.startCulturebox .icon-xiangzuo2{
+    left: 50px;
+}
+.startCulturebox .icon-xiangzuo2:hover{
+    transform: translateX(-4px);
+}
+.startCulturebox .icon-xiangyou2:hover{
+    transform: translateY(-4px);
+}
+.startCulturebox .icon-xiangyou2{
+    right: 50px;
+}
+.footerApp{
+    background-color: white;
+}
+.footerApp a{
+    color: #00A862;
+}
+footer a{
+    color: #000;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+@media all and (max-width:991px) {
+    .left {
+        position: static !important;
+    }
+    .leftDeng {
+        height: auto;
+    }
+}
+@media all and (max-width:576px) {
+    .left {
+        position: static !important;
+    }
+    .leftDeng {
+        height: auto;
+    }
+    .startClub{
+        text-align: center;
+    }
+    .startSelected .startSelectedcard img{
+        width: 100%;
+        height: auto;
+    }
+    .startSelected .startSelectedcard h5{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+    .startSelected .startSelectedcard p{
+        font-size: 1rem;
+    }
+}
